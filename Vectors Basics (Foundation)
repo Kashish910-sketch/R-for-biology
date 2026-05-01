@@ -1,0 +1,19 @@
+# Vectors in R
+# Author: Kashish
+
+# Create a vector
+numbers <- c(10, 20, 30, 40)
+
+print(numbers)
+
+# Access elements
+print(numbers[1])   # first element
+print(numbers[3])   # third element
+
+# Add elements
+numbers <- c(numbers, 50)
+
+print(numbers)
+
+# Basic operations
+print(numbers + 5)
